@@ -1,0 +1,25 @@
+# Configuration
+output_directory : /home/VeloPix_testing/GabrielTests/new/CR003482/T-40V-550_0
+asic : VP2_Asic2
+
+min_global_threshold : [800, 1400, 1300]
+max_global_threshold : [1500, 1405, 1600]
+global_threshold_step : [5, 5, 5]
+mask_pattern : 1
+
+mask_dacRangeCut : 25
+dac_noise : 1
+equalise_to_n_sigma : 0
+
+dac_ipreamp : 164
+dac_ikrum : 32
+dac_idisc : 128
+dac_ipixeldac : 90
+dac_vpreamp_cas : 103
+dac_vfbk : 143
+dac_vcasdisc : 232
+dac_vincas : 199
+
+shutter_nclks : 800
+shutter_mult : 0
+
